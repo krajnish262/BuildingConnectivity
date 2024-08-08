@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="sp10">10sp</dimen>
+    <dimen name="dp3">3dp</dimen>
+    <dimen name="sp8">8sp</dimen>
+    <dimen name="sp20">20sp</dimen>
+    <dimen name="sp18">16sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="sp14">14sp</dimen>
+    <dimen name="sp15">15sp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp_network_map_line_old">0.5dp</dimen>
+    <dimen name="dp_network_map_line">2dp</dimen>
+    <dimen name="popup_width">320dp</dimen>
+    <dimen name="popup_height">320dp</dimen>
+    <dimen name="left_margin_main">20dp</dimen>
+    <dimen name="right_margin_main">20dp</dimen>
+    <dimen name="top_margin_main">30dp</dimen>
+    <dimen name="top_margin_15dp">10dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+
+    <dimen name="dpOtpRadius">5dp</dimen>
+</resources>

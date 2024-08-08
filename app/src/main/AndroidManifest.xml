@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.airtel.buildingconnectivitymmi">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name="com.airtel.buildingconnectivitymmi.activity.MapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_airtel"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:roundIcon="@mipmap/ic_launcher_airtel_round"
+        android:supportsRtl="true">
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:name="com.airtel.buildingconnectivitymmi.activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.OtpActivity"
+        android:windowSoftInputMode="stateVisible"
+        android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>
