@@ -131,8 +131,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private MapboxMap mMap;
     CardView card_view_check;
     CardView card_view_current_location;
-    String apiKey_old = "AIzaSyDIIcIhkh5TtUSIB2h92rVfXcn4u14HCBo";
-    String apiKey = "AIzaSyAyp2O8KiiD-wsnmiy9f1qsgHLuqfDZOSs";
+    String apiKey_old = "";
+    String apiKey = "";
     private String connectivityV2 = "v2/connectivity";
     private String connectivityV4 = "v4/connectivity";
     private static StringBuilder hexString;
